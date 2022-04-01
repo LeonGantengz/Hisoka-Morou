@@ -10,19 +10,21 @@ const chalk = require('chalk')
 // Website Api
 global.APIs = {
 	zenz: 'https://zenzapi.xyz',
+	yanto: 'https://hardianto.xyz',
 }
 
 // Apikey Website Api
 global.APIKeys = {
-	'https://zenzapi.xyz': 'Your Key',
+	'https://zenzapi.xyz': '4d691a13b300',
+	'https://hardianto.xyz': 'hardianto'
 }
 
 // Other
-global.owner = ['6283167714830','6281382420312','6288292024190']
-global.premium = ['6288292024190']
-global.packname = 'Hisoka Morrow'
-global.author = 'WhatsApp Bot'
-global.sessionName = 'hisoka'
+global.owner = ['6285608625102','6285608625102','6285608625102']
+global.premium = ['6285608625102']
+global.packname = 'Yui-Chan'
+global.author = 'LeonGanz'
+global.sessionName = 'leon'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {

@@ -1540,7 +1540,7 @@ break
                 m.reply(mess.wait)
                 hisoka.sendMessage(m.chat, { image: { url: api('zenz', '/api/random/'+command, {}, 'apikey') }, caption: 'Generate Random ' + command }, { quoted: m })
             }
-            break
+            breakeak
 	    case 'couple': {
                 m.reply(mess.wait)
                 let anu = await fetchJson('https://raw.githubusercontent.com/iamriz7/kopel_/main/kopel.json')
@@ -1641,6 +1641,13 @@ break
                 hisoka.sendMessage(m.chat, { image: { url: api('zenz', '/photooxy/' + command, { text: text }, 'apikey') }, caption: `Photo Oxy ${command}` }, { quoted: m })
             }
             break
+            case 'tahta': case 'hartatahta':
+         if (!text) throw 'No Query Text'
+  m.reply("Tunggu Sebentar Sedang Membuat Makernya Sekitar 1 Menit Kurang")
+  m.reply(`Harta Tahta Sedang Di Buat`)
+hisoka.sendMessage(m.chat, {caption: `*HARTA*\n*TAHTA*`, image: { url: (`https://hardianto.xyz/api/maker/harta-tahta?apikey=hardianto&text=text`)}}, {quoted: m})
+
+break
             case 'ffcover': case 'crossfire': case 'galaxy': case 'glass': case 'neon': case 'beach': case 'blackpink': case 'igcertificate': case 'ytcertificate': {
                 if (!text) throw 'No Query Text'
                 m.reply(mess.wait)
